@@ -3,6 +3,7 @@ package com.xuyuan;
 import com.xuyuan.service.OrderService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
@@ -15,6 +16,7 @@ import javax.sql.DataSource;
 @ComponentScan("com.xuyuan")
 @EnableAspectJAutoProxy
 @EnableTransactionManagement
+@Configuration
 public class AppConfig {
 
     @Bean
