@@ -14,10 +14,10 @@ public class Test1 {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 //        ClassPathXmlApplicationContext context1 = new ClassPathXmlApplicationContext();
         UserService userService = (UserService)context.getBean("userService");
-        System.out.println(context.getBean("orderService"));
+      /*  System.out.println(context.getBean("orderService"));
         System.out.println(context.getBean("orderService1"));
-        System.out.println(context.getBean("orderService2"));
-//        userService.test();
+        System.out.println(context.getBean("orderService2"));*/
+        userService.test();
 
         /*for (Field field : userService.getClass().getFields()) {
             if(field.isAnnotationPresent(Autowired.class)){
