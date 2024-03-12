@@ -4,12 +4,19 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Component
 public class UserService implements InitializingBean {
 
     private OrderService orderService;
+
+    @Autowired
+    UserServiceBase userServiceBase;
+
+    @Autowired
+    UserService userService;
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
@@ -29,8 +36,14 @@ public class UserService implements InitializingBean {
     public void test(){
         System.out.println("hello");
         jdbcTemplate.execute("insert into t1 values(1,1,1,1,1)");
-        throw new NullPointerException();
+        userService.test2();
+//        throw new NullPointerException();
 
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void  test2(){
+        System.out.println("hello2");
     }
 
     public void afterPropertiesSet() throws Exception {
