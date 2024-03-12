@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 @EnableAspectJAutoProxy
 @EnableTransactionManagement
 @Configuration
-public class AppConfig {
+public class AppConfig { //Appconfig代理对象 Configuration
 
     @Bean
     public OrderService orderService1(){
