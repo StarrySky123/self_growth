@@ -37,7 +37,7 @@ public class AppConfig { //Appconfig代理对象 Configuration
     @Bean
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setUrl("jdbc:mysql://192.168.162.111:3306/xuyuan?characterEncoding=utf-8&amp;useSSL=false");
+        dataSource.setUrl("jdbc:mysql://192.168.162.111:3306/xuanyuan?characterEncoding=utf-8&amp;useSSL=false");
         dataSource.setUsername("root");
         dataSource.setPassword("ai710109");
         return dataSource;
