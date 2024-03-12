@@ -13,6 +13,9 @@ public class UserService implements InitializingBean {
     private OrderService orderService;
 
     @Autowired
+    private OrderService orderService2;
+
+    @Autowired
     UserServiceBase userServiceBase;
 
     @Autowired
@@ -35,13 +38,13 @@ public class UserService implements InitializingBean {
     @Transactional
     public void test(){
         System.out.println("hello");
-        jdbcTemplate.execute("insert into t1 values(1,1,1,1,1)");
+        jdbcTemplate.execute("insert into user_info values(null,'zyyangy',18,'男','123456',null,null)");
         userService.test2();
 //        throw new NullPointerException();
 
     }
 
-    @Transactional(propagation = Propagation.REQUIRED)
+    @Transactional(propagation = Propagation.NEVER)
     public void  test2(){
         System.out.println("hello2");
     }

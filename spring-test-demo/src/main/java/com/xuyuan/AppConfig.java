@@ -31,13 +31,13 @@ public class AppConfig { //Appconfig代理对象 Configuration
 
     @Bean
     public JdbcTemplate jdbcTemplate(){
-        return new JdbcTemplate();
+        return new JdbcTemplate(dataSource());
     }
 
     @Bean
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setUrl("jdbc:mysql://192.168.162.111:3306/xuanyuan?characterEncoding=utf-8&amp;useSSL=false");
+        dataSource.setUrl("jdbc:mysql://192.168.162.111:3306/xuanyuan?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC");
         dataSource.setUsername("root");
         dataSource.setPassword("ai710109");
         return dataSource;
