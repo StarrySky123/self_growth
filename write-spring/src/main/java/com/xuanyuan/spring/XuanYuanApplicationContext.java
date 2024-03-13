@@ -1,5 +1,6 @@
 package com.xuanyuan.spring;
 
+import java.beans.Introspector;
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
@@ -14,8 +15,7 @@ public class XuanYuanApplicationContext {
     private Map<String,Object> singletonObjects = new HashMap<>();
 
     public XuanYuanApplicationContext(Class configClass) {
-        this.configClass = configClass;
-        //扫描
+           //扫描
         scan(configClass);
 
         for (Map.Entry<String, BeanDefinition> entry : beanDefinitionMap.entrySet()) {
@@ -33,6 +33,8 @@ public class XuanYuanApplicationContext {
         Object instance = null;
         try {
             instance = clazz.getConstructor().newInstance();
+            //没写完
+
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
@@ -70,6 +72,9 @@ public class XuanYuanApplicationContext {
                             String beanName = componentAnnotation.value();
                             //bean
                             System.out.println(clazz);
+                            if("".equals(beanName)){
+                                beanName = Introspector.decapitalize(clazz.getSimpleName());
+                            }
                             BeanDefinition beanDefinition = new BeanDefinition();
                             beanDefinition.setType(clazz);
                             if(clazz.isAnnotationPresent(Scope.class)){
