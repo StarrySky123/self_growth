@@ -50,7 +50,7 @@ public class XuanYuanApplicationContext {
             }
 
             for (BeanPostProcessor beanPostProcessor : beanPostProcessorList) {
-                beanPostProcessor.postProcessAfterInitialization(instance,beanName);
+                instance = beanPostProcessor.postProcessAfterInitialization(instance,beanName);
             }
 
         } catch (InstantiationException e) {
@@ -70,7 +70,7 @@ public class XuanYuanApplicationContext {
             ComponentScan componentScanAnnotation = (ComponentScan)configClass.getAnnotation(ComponentScan.class);
             String path = componentScanAnnotation.value();
             path = path.replace(".", "/"); // com/xuyuan/test/service
-            System.out.println(path);
+//            System.out.println(path);
 
             ClassLoader classLoader = XuanYuanApplicationContext.class.getClassLoader();
             URL resource = classLoader.getResource(path);
@@ -81,7 +81,7 @@ public class XuanYuanApplicationContext {
                     String absolutePath = f.getAbsolutePath();
                     absolutePath = absolutePath.substring(absolutePath.indexOf("com"), absolutePath.indexOf(".class"));
                     absolutePath = absolutePath.replace("\\", ".");
-                    System.out.println(absolutePath);
+//                    System.out.println(absolutePath);
 
                     try {
                         Class<?> clazz = classLoader.loadClass(absolutePath);
@@ -95,7 +95,7 @@ public class XuanYuanApplicationContext {
                             Component componentAnnotation = clazz.getAnnotation(Component.class);
                             String beanName = componentAnnotation.value();
                             //bean
-                            System.out.println(clazz);
+//                            System.out.println(clazz);
                             if("".equals(beanName)){
                                 beanName = Introspector.decapitalize(clazz.getSimpleName());
                             }

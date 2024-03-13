@@ -1,6 +1,7 @@
 package com.xuanyuan.test;
 
 import com.xuanyuan.spring.XuanYuanApplicationContext;
+import com.xuanyuan.test.service.UserInterface;
 import com.xuanyuan.test.service.UserService;
 
 public class Test {
@@ -9,8 +10,8 @@ public class Test {
         //扫描->创建单例bean
         XuanYuanApplicationContext applicationContext = new XuanYuanApplicationContext(AppConfig.class);
 
-        UserService userService = (UserService) applicationContext.getBean("userService");
-        System.out.println(userService);
+        UserInterface userService = (UserInterface) applicationContext.getBean("userService");
+//        System.out.println(userService);
         userService.test();
 //        System.out.println(applicationContext.getBean("userService"));
 //        System.out.println(applicationContext.getBean("orderService"));
