@@ -2,6 +2,7 @@ package com.xuanyuan.spring;
 
 import java.beans.Introspector;
 import java.io.File;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.util.HashMap;
@@ -34,7 +35,12 @@ public class XuanYuanApplicationContext {
         try {
             instance = clazz.getConstructor().newInstance();
             //没写完
-
+            for (Field field : clazz.getDeclaredFields()) {
+                if(field.isAnnotationPresent(Autowired.class)){
+                    field.setAccessible(true);
+                    field.set(instance,getBean(field.getName()));
+                }
+            }
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
@@ -103,6 +109,9 @@ public class XuanYuanApplicationContext {
         BeanDefinition beanDefinition = beanDefinitionMap.get(beanName);
         if(beanDefinition.getScope().equals("singleton")){
             Object singletonBean = singletonObjects.get(beanName);
+            if(singletonBean == null){
+                singletonObjects.put(beanName,createBean(beanName,beanDefinition));
+            }
             return singletonBean;
         }else {
             //原型
