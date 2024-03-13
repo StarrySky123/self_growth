@@ -45,6 +45,10 @@ public class XuanYuanApplicationContext {
                 }
             }
 
+            if (instance instanceof BeanNameAware) {
+                ((BeanNameAware)instance).setBeanName(beanName);
+            }
+
             for (BeanPostProcessor beanPostProcessor : beanPostProcessorList) {
                 instance = beanPostProcessor.postProcessBeforeInitialization(instance,beanName);
             }
