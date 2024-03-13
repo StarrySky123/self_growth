@@ -5,7 +5,9 @@ import java.io.File;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class XuanYuanApplicationContext {
@@ -14,6 +16,7 @@ public class XuanYuanApplicationContext {
 
     private Map<String,BeanDefinition> beanDefinitionMap  = new HashMap<>();
     private Map<String,Object> singletonObjects = new HashMap<>();
+    private List<BeanPostProcessor> beanPostProcessorList = new ArrayList<>();
 
     public XuanYuanApplicationContext(Class configClass) {
            //扫描
@@ -41,6 +44,15 @@ public class XuanYuanApplicationContext {
                     field.set(instance,getBean(field.getName()));
                 }
             }
+
+            if(instance instanceof InitializingBean){
+                ((InitializingBean) instance).afterPropertiesSet();
+            }
+
+            for (BeanPostProcessor beanPostProcessor : beanPostProcessorList) {
+                beanPostProcessor.postProcessAfterInitialization(instance,beanName);
+            }
+
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
@@ -74,6 +86,12 @@ public class XuanYuanApplicationContext {
                     try {
                         Class<?> clazz = classLoader.loadClass(absolutePath);
                         if(clazz.isAnnotationPresent(Component.class)){
+
+                            if(BeanPostProcessor.class.isAssignableFrom(clazz)){
+                                BeanPostProcessor instance = (BeanPostProcessor)clazz.getConstructor().newInstance();
+                                beanPostProcessorList.add(instance);
+                            }
+
                             Component componentAnnotation = clazz.getAnnotation(Component.class);
                             String beanName = componentAnnotation.value();
                             //bean
@@ -93,6 +111,14 @@ public class XuanYuanApplicationContext {
                             beanDefinitionMap.put(beanName,beanDefinition);
                         }
                     } catch (ClassNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
+                    } catch (InstantiationException e) {
+                        e.printStackTrace();
+                    } catch (NoSuchMethodException e) {
+                        e.printStackTrace();
+                    } catch (InvocationTargetException e) {
                         e.printStackTrace();
                     }
                 }

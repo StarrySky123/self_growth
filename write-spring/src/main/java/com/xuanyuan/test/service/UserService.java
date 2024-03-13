@@ -2,12 +2,13 @@ package com.xuanyuan.test.service;
 
 import com.xuanyuan.spring.Autowired;
 import com.xuanyuan.spring.Component;
+import com.xuanyuan.spring.InitializingBean;
 import com.xuanyuan.spring.Scope;
 
 @Component("userService")
 //@Scope("prototype")
 //@Scope("singleton")
-public class UserService {
+public class UserService implements InitializingBean {
 
     @Autowired
     private OrderService orderService;
@@ -17,4 +18,8 @@ public class UserService {
         System.out.println(orderService);
     }
 
+    @Override
+    public void afterPropertiesSet() {
+        System.out.println("初始化");
+    }
 }
