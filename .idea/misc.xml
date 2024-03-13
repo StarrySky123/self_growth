@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring-test-demo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-test-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/write-spring/pom.xml" />
       </list>
     </option>
   </component>

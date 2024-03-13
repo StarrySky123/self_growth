@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/self_growth.iml" filepath="$PROJECT_DIR$/.idea/self_growth.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-test-demo/spring-test-demo.iml" filepath="$PROJECT_DIR$/spring-test-demo/spring-test-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-test-demo/springboot-test-demo.iml" filepath="$PROJECT_DIR$/springboot-test-demo/springboot-test-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/write-spring/write-spring.iml" filepath="$PROJECT_DIR$/write-spring/write-spring.iml" />
     </modules>
   </component>
 </project>
