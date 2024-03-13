@@ -3,6 +3,7 @@ package com.xuanyuan.test.service;
 import com.xuanyuan.spring.BeanPostProcessor;
 import com.xuanyuan.spring.Component;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -23,6 +24,21 @@ public class XuanYuanBeanPostProcessor implements BeanPostProcessor {
                 }
             });
             return proxyInstance;
+        }
+        return bean;
+    }
+
+    @Override
+    public Object postProcessBeforeInitialization(Object bean, String beanName) {
+        for (Field field : bean.getClass().getDeclaredFields()) {
+            if(field.isAnnotationPresent(XuanYuanValue.class)){
+                field.setAccessible(true);
+                try {
+                    field.set(bean,field.getAnnotation(XuanYuanValue.class).value());
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
+            }
         }
         return bean;
     }

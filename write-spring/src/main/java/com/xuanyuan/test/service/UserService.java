@@ -13,9 +13,13 @@ public class UserService implements InitializingBean,UserInterface {
     @Autowired
     private OrderService orderService;
 
+    @XuanYuanValue("test")
+    private String test;
+
     public void test(){
 //        System.out.println("spring test");
-        System.out.println(orderService);
+//        System.out.println(orderService);
+        System.out.println(test);
     }
 
     @Override
