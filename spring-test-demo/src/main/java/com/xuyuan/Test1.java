@@ -11,8 +11,10 @@ public class Test1 {
 
     public static void main(String[] args) {
         //bean对象
+        //非懒加载的单例bean
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 //        ClassPathXmlApplicationContext context1 = new ClassPathXmlApplicationContext();
+        //懒加载的单例bean
         UserService userService = (UserService)context.getBean("userService");
       /*  System.out.println(context.getBean("orderService"));
         System.out.println(context.getBean("orderService1"));
