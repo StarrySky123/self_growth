@@ -10,5 +10,8 @@ public class Test {
         XuanYuanApplicationContext applicationContext = new XuanYuanApplicationContext(AppConfig.class);
 
         UserService userService = (UserService) applicationContext.getBean("userService");
+        System.out.println(applicationContext.getBean("userService"));
+        System.out.println(applicationContext.getBean("userService"));
+        System.out.println(applicationContext.getBean("userService"));
     }
 }

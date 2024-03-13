@@ -12,9 +12,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-test-demo" target="1.5" />
+      <module name="spring-test-demo" target="1.8" />
       <module name="springboot-test-demo" target="1.8" />
-      <module name="write-spring" target="1.5" />
+      <module name="write-spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

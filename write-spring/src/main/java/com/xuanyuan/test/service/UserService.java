@@ -4,7 +4,8 @@ import com.xuanyuan.spring.Component;
 import com.xuanyuan.spring.Scope;
 
 @Component("userService")
-@Scope("prototype")
+//@Scope("prototype")
+//@Scope("singleton")
 public class UserService {
 
     public void test(){
