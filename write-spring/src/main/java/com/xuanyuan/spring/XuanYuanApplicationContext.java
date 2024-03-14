@@ -4,6 +4,7 @@ import java.beans.Introspector;
 import java.io.File;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,7 +20,7 @@ public class XuanYuanApplicationContext {
     private List<BeanPostProcessor> beanPostProcessorList = new ArrayList<>();
 
     public XuanYuanApplicationContext(Class configClass) {
-           //扫描
+        //扫描
         scan(configClass);
 
         for (Map.Entry<String, BeanDefinition> entry : beanDefinitionMap.entrySet()) {
@@ -47,6 +48,12 @@ public class XuanYuanApplicationContext {
 
             if (instance instanceof BeanNameAware) {
                 ((BeanNameAware)instance).setBeanName(beanName);
+            }
+
+            for (Method method : clazz.getDeclaredMethods()) {
+                if(method.isAnnotationPresent(PostConstruct.class)){
+                    method.invoke(instance);
+                }
             }
 
             for (BeanPostProcessor beanPostProcessor : beanPostProcessorList) {

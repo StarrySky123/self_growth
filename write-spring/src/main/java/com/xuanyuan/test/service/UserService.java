@@ -15,10 +15,15 @@ public class UserService implements InitializingBean,UserInterface, BeanNameAwar
 
     private String beanName;
 
+    @PostConstruct
+    public void init(){
+        System.out.println("post method");
+    }
+
     public void test(){
 //        System.out.println("spring test");
 //        System.out.println(orderService);
-        System.out.println(beanName);
+        System.out.println(orderService);
     }
 
     @Override

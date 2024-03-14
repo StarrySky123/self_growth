@@ -11,8 +11,8 @@ public class Test {
         XuanYuanApplicationContext applicationContext = new XuanYuanApplicationContext(AppConfig.class);
 
         UserInterface userService = (UserInterface) applicationContext.getBean("userService");
-//        System.out.println(userService);
-        userService.test();
+        System.out.println(userService);
+//        userService.test();
 //        System.out.println(applicationContext.getBean("userService"));
 //        System.out.println(applicationContext.getBean("orderService"));
     }
