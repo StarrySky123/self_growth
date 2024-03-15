@@ -96,10 +96,11 @@ public class XuanYuanApplicationContext {
                     String absolutePath = f.getAbsolutePath();
                     absolutePath = absolutePath.substring(absolutePath.indexOf("com"), absolutePath.indexOf(".class"));
                     absolutePath = absolutePath.replace("\\", ".");
-//                    System.out.println(absolutePath);
+                    System.out.println(absolutePath);
 
                     try {
                         Class<?> clazz = classLoader.loadClass(absolutePath);
+//                        Class<?> clazz = Class.forName(absolutePath);
                         if(clazz.isAnnotationPresent(Component.class)){
 
                             if(BeanPostProcessor.class.isAssignableFrom(clazz)){
