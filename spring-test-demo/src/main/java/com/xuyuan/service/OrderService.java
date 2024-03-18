@@ -7,12 +7,12 @@ import org.springframework.transaction.annotation.Transactional;
 @Component
 public class OrderService {
 
-    @Autowired
-    private SendService sendService;
+    /*@Autowired
+    private SendService sendService;*/
 
     @Transactional
     public void test(){
-        sendService.test();
+//        sendService.test();
         //System.out.println("test");
     }
 
