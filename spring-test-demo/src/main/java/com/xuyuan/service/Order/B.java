@@ -1,7 +1,9 @@
 package com.xuyuan.service.Order;
 
 import org.springframework.core.Ordered;
+import org.springframework.core.annotation.Order;
 
+//@Order(2)
 public class B implements Ordered {
     @Override
     public int getOrder() {
