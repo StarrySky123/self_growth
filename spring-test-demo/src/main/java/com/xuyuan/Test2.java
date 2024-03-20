@@ -18,12 +18,12 @@ public class Test2 {
        /* OrderService orderService = (OrderService)context.getBean("orderService");
         orderService.test();*/
 
-        /*AbstractBeanDefinition beanDefinition = BeanDefinitionBuilder.genericBeanDefinition().getBeanDefinition();
+        AbstractBeanDefinition beanDefinition = BeanDefinitionBuilder.genericBeanDefinition().getBeanDefinition();
         beanDefinition.setBeanClass(SendService.class);
         beanDefinition.setScope("prototype");
         context.registerBeanDefinition("sendService",beanDefinition);
 
-        SendService sendService = (SendService)context.getBean("sendService");*/
+        SendService sendService = (SendService)context.getBean("sendService");
 
         /*AnnotatedBeanDefinitionReader annotatedBeanDefinitionReader = new AnnotatedBeanDefinitionReader(context);
         annotatedBeanDefinitionReader.register(SendService.class);
@@ -38,8 +38,8 @@ public class Test2 {
         ClassPathBeanDefinitionScanner scanner = new ClassPathBeanDefinitionScanner(context);
         context.refresh();
         int scan = scanner.scan("com.xuyuan");*/
-        SendService sendService = (SendService)context.getBean("sendService");
+        /*SendService sendService = (SendService)context.getBean("sendService");
         sendService.test();
-
+*/
     }
 }

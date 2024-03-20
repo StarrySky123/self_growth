@@ -7,6 +7,12 @@ public class Test8 {
     public static void main(String[] args) {
 
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        System.out.println(context.getBean("userService"));
+//        System.out.println(context.getBean("userService"));
+
+//        System.out.println(context.getBean("xuanYuanFactoryBean"));
+//        System.out.println(context.getBean("&xuanYuanFactoryBean"));
+        System.out.println(context.getBean("commodityService"));
+
+
     }
 }

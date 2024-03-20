@@ -1,5 +1,6 @@
 package com.xuyuan;
 
+import com.xuyuan.service.CommodityService;
 import com.xuyuan.service.OrderService;
 import com.xuyuan.service.User;
 import com.xuyuan.service.UserService;
@@ -30,6 +31,11 @@ import java.util.HashMap;
 @Configuration
 @PropertySource("classpath:spring.properties")
 public class AppConfig { //Appconfig代理对象 Configuration
+
+    /*@Bean
+    public CommodityService commodityService(){
+        return new CommodityService();
+    }*/
 
     @Bean
     public OrderService orderService1(){
