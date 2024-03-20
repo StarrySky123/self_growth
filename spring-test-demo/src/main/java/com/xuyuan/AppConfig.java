@@ -22,7 +22,9 @@ import java.beans.PropertyEditor;
 import java.util.Collections;
 import java.util.HashMap;
 
-@ComponentScan(value = "com.xuyuan",excludeFilters = {@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE,classes = UserService.class)})
+//@ComponentScan(value = "com.xuyuan",excludeFilters = {@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE,classes = UserService.class)})
+@ComponentScan(value = "com.xuyuan",includeFilters = {@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE,classes = UserService.class)})
+//@ComponentScan(value = "com.xuyuan")
 @EnableAspectJAutoProxy
 @EnableTransactionManagement
 @Configuration

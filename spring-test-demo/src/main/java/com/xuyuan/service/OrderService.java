@@ -13,7 +13,7 @@ public class OrderService implements Ordered {
     /*@Autowired
     private SendService sendService;*/
 
-    @Transactional
+//    @Transactional
     public void test(){
 //        sendService.test();
         //System.out.println("test");
