@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eca25b5b-93da-4cb1-8a69-903fe49f6779" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/self_growth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/self_growth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="XML Properties File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>context</find>
+      <find>configClass</find>
+      <find>初始化</find>
+      <find>切面逻辑</find>
+      <find>h</find>
+      <find>sys</find>
+      <find>postcon</find>
+      <find>beandefinitionmap</find>
+      <find>scan</find>
+      <find>do</find>
+      <find>Collections</find>
+      <find>propertys</find>
+      <find>resource</find>
+      <find>factorybean</find>
+      <find>prototype</find>
+      <find>dataSource</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/writes-pring/pom.xml" />
+        <option value="$PROJECT_DIR$/write-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/XuanYuanApplication.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/ComponentScan.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/Component.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/test/AppConfig.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/Scope.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/BeanDefinition.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/AutoWired.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/Autowired.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/InitializingBean.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/BeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/test/service/XuanYuanValue.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/test/service/XuanYuanBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/BeanNameAware.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/test/service/UserInterface.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/PostConstruct.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/test/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/test/service/UserService.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/test/Test.java" />
+        <option value="$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/XuanYuanApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/resources/messages-en.properties" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/resources/spring.properties" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/User.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/StringToUserPropertyEditor.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/StringToUserConverter.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYuanFactioryBean.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYuanBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYanBeanFactoryPostProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/SendService.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/resources/messages_en.properties" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test3.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test4.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test1.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test5.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/Order/A.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/Order/B.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test6.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/MoneyService.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test7.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/PayService.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/UserService.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/AppConfig.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/CommodityService.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYuanFactoryBean.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test8.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test2.java" />
+        <option value="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../software/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\zyyangy\software\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-test-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-test-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-test-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="335" />
+    <option name="width" value="1595" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectId" id="2e1cfRqezNko8s2zrCbJpj6cFVx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-test-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xuyuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-test-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="write-spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="write-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="write-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="write-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="write-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xuanyuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self_growth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self_growth" type="462c0819:PsiDirectoryNode" />
+              <item name="write-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xuanyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1710985639791" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../BaiduNetdiskDownload/Java分布式12306/next12306-master-8f0e6da2304080c64c5f61949d87bf335e53c15b" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuyuan.service.Order" />
+      <recent name="com.xuanyuan.test.service" />
+      <recent name="com.xuanyuan.spring" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zyyangy\workspace\self_growth\spring-test-demo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test8">
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuyuan.Test2" />
+      <module name="spring-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuyuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuyuan.Test5" />
+      <module name="spring-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuyuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuyuan.Test6" />
+      <module name="spring-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuyuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuyuan.Test7" />
+      <module name="spring-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuyuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuyuan.Test8" />
+      <module name="spring-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuyuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootTestDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-test-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuanyuan.springboot.test.demo.SpringbootTestDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test8" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test7" />
+        <item itemvalue="Application.Test6" />
+        <item itemvalue="Application.Test5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eca25b5b-93da-4cb1-8a69-903fe49f6779" name="Default Changelist" comment="" />
+      <created>1709709943008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709709943008</updated>
+      <workItem from="1709709944322" duration="443000" />
+      <workItem from="1709710416337" duration="2031000" />
+      <workItem from="1709712469871" duration="1869000" />
+      <workItem from="1709714380978" duration="1723000" />
+      <workItem from="1709731946981" duration="437000" />
+      <workItem from="1709793792602" duration="19000" />
+      <workItem from="1709795459248" duration="2415000" />
+      <workItem from="1710116670768" duration="9623000" />
+      <workItem from="1710203493545" duration="13724000" />
+      <workItem from="1710244047209" duration="6730000" />
+      <workItem from="1710289747217" duration="17437000" />
+      <workItem from="1710331430471" duration="7762000" />
+      <workItem from="1710339797046" duration="309000" />
+      <workItem from="1710376295481" duration="9349000" />
+      <workItem from="1710390844875" duration="861000" />
+      <workItem from="1710392557754" duration="6288000" />
+      <workItem from="1710463097664" duration="9715000" />
+      <workItem from="1710547494860" duration="6444000" />
+      <workItem from="1710739742293" duration="1408000" />
+      <workItem from="1710808312129" duration="10001000" />
+      <workItem from="1710851423591" duration="4308000" />
+      <workItem from="1710887775103" duration="1845000" />
+      <workItem from="1710894331816" duration="615000" />
+      <workItem from="1710896766082" duration="16000" />
+      <workItem from="1710898800065" duration="23647000" />
+      <workItem from="1710935962415" duration="2809000" />
+      <workItem from="1710940010913" duration="694000" />
+      <workItem from="1710981898928" duration="2954000" />
+      <workItem from="1710987036121" duration="9000" />
+      <workItem from="1710987165691" duration="21000" />
+      <workItem from="1710996459815" duration="50000" />
+      <workItem from="1710996538924" duration="1202000" />
+      <workItem from="1711075631326" duration="85000" />
+      <workItem from="1711077232310" duration="3658000" />
+    </task>
+    <task id="LOCAL-00001" summary="--新建spring测试工程">
+      <created>1709711069147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709711069147</updated>
+    </task>
+    <task id="LOCAL-00002" summary="--新建spring测试工程">
+      <created>1709711199134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709711199134</updated>
+    </task>
+    <task id="LOCAL-00003" summary="--新建springboot测试工程">
+      <created>1709711956907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709711956907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="--新建springboot测试工程">
+      <created>1709712264870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709712264870</updated>
+    </task>
+    <task id="LOCAL-00005" summary="--新建springboot测试工程">
+      <created>1709713000208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709713000208</updated>
+    </task>
+    <task id="LOCAL-00006" summary="--新建springboot测试工程">
+      <created>1709713892432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709713892432</updated>
+    </task>
+    <task id="LOCAL-00007" summary="--新建springboot测试工程">
+      <created>1709715120827</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709715120827</updated>
+    </task>
+    <task id="LOCAL-00008" summary="--新建springboot测试工程">
+      <created>1710116706297</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710116706297</updated>
+    </task>
+    <task id="LOCAL-00009" summary="--新建springboot测试工程">
+      <created>1710124412059</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710124412059</updated>
+    </task>
+    <task id="LOCAL-00010" summary="--新建springboot测试工程">
+      <created>1710125429434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710125429434</updated>
+    </task>
+    <task id="LOCAL-00011" summary=".xml">
+      <created>1710125546597</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710125546597</updated>
+    </task>
+    <task id="LOCAL-00012" summary=".xml">
+      <created>1710149151957</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710149151957</updated>
+    </task>
+    <task id="LOCAL-00013" summary=".xml">
+      <created>1710203543955</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710203543955</updated>
+    </task>
+    <task id="LOCAL-00014" summary=".xml">
+      <created>1710209771834</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710209771834</updated>
+    </task>
+    <task id="LOCAL-00015" summary="aspect">
+      <created>1710211364757</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710211364757</updated>
+    </task>
+    <task id="LOCAL-00016" summary="aspect">
+      <created>1710227317150</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710227317150</updated>
+    </task>
+    <task id="LOCAL-00017" summary="aspect">
+      <created>1710229476461</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710229476461</updated>
+    </task>
+    <task id="LOCAL-00018" summary="aspect">
+      <created>1710231346377</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710231346377</updated>
+    </task>
+    <task id="LOCAL-00019" summary="aspect">
+      <created>1710236161945</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710236161945</updated>
+    </task>
+    <task id="LOCAL-00020" summary="aspect">
+      <created>1710249116123</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710249116124</updated>
+    </task>
+    <task id="LOCAL-00021" summary="aspect">
+      <created>1710251951663</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1710251951663</updated>
+    </task>
+    <task id="LOCAL-00022" summary="aspect">
+      <created>1710252218322</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710252218322</updated>
+    </task>
+    <task id="LOCAL-00023" summary="aspect">
+      <created>1710290063305</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710290063305</updated>
+    </task>
+    <task id="LOCAL-00024" summary="write spring">
+      <created>1710294912823</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710294912823</updated>
+    </task>
+    <task id="LOCAL-00025" summary="write spring">
+      <created>1710299160426</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710299160426</updated>
+    </task>
+    <task id="LOCAL-00026" summary="write spring">
+      <created>1710311214674</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710311214674</updated>
+    </task>
+    <task id="LOCAL-00027" summary="write spring">
+      <created>1710319082380</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710319082380</updated>
+    </task>
+    <task id="LOCAL-00028" summary="write spring">
+      <created>1710319829825</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710319829825</updated>
+    </task>
+    <task id="LOCAL-00029" summary="write spring">
+      <created>1710332753030</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710332753033</updated>
+    </task>
+    <task id="LOCAL-00030" summary="write spring">
+      <created>1710337516119</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710337516119</updated>
+    </task>
+    <task id="LOCAL-00031" summary="write spring">
+      <created>1710338161630</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710338161630</updated>
+    </task>
+    <task id="LOCAL-00032" summary="write spring">
+      <created>1710339147384</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710339147384</updated>
+    </task>
+    <task id="LOCAL-00033" summary="write spring">
+      <created>1710340041447</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1710340041447</updated>
+    </task>
+    <task id="LOCAL-00034" summary="write spring">
+      <created>1710390333487</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1710390333487</updated>
+    </task>
+    <task id="LOCAL-00035" summary="write spring">
+      <created>1710464560833</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710464560833</updated>
+    </task>
+    <task id="LOCAL-00036" summary="核心概念解析">
+      <created>1710739823590</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710739823591</updated>
+    </task>
+    <task id="LOCAL-00037" summary="核心概念解析">
+      <created>1710830384676</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1710830384676</updated>
+    </task>
+    <task id="LOCAL-00038" summary="核心概念解析">
+      <created>1710855394236</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855394237</updated>
+    </task>
+    <task id="LOCAL-00039" summary="核心概念解析">
+      <created>1710902155037</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1710902155037</updated>
+    </task>
+    <task id="LOCAL-00040" summary="核心概念解析">
+      <created>1710902174651</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1710902174651</updated>
+    </task>
+    <task id="LOCAL-00041" summary="核心概念解析">
+      <created>1710903049428</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1710903049428</updated>
+    </task>
+    <task id="LOCAL-00042" summary="核心概念解析">
+      <created>1710909010745</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1710909010745</updated>
+    </task>
+    <task id="LOCAL-00043" summary="核心概念解析">
+      <created>1710910486387</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710910486387</updated>
+    </task>
+    <task id="LOCAL-00044" summary="核心概念解析">
+      <created>1710915947776</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710915947776</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="146758000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.152819" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62734586" weight="0.20474778" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.51038575" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.6447721" visible="true" weight="0.21513353" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.6721068" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.37265417" side_tool="true" weight="0.3694362" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32937685" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32937685" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3486647" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.23324397" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.2546917" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="--新建spring测试工程" />
+    <MESSAGE value="--新建springboot测试工程" />
+    <MESSAGE value=".xml" />
+    <MESSAGE value="aspect" />
+    <MESSAGE value="write spring" />
+    <MESSAGE value="核心概念解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="核心概念解析" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>clazz.getSimpleName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>field.getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>singletonObjects.get(beanName)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanDefinition.getScope()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joinPoint.getTarget()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="1107" column="36" selection-start-line="1107" selection-start-column="36" selection-end-line="1107" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1783" selection-start-line="1783" selection-end-line="1783" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/BeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/test/service/XuanYuanBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="480" column="13" lean-forward="true" selection-start-line="480" selection-start-column="13" selection-end-line="480" selection-end-column="13" />
+          <folding>
+            <element signature="e#16388#16389#0" expanded="true" />
+            <element signature="e#16413#16414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/resources/spring.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/Jdk/Install/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="866" column="18" selection-start-line="866" selection-start-column="18" selection-end-line="866" selection-end-column="18" />
+          <folding>
+            <element signature="e#32365#32366#0" expanded="true" />
+            <element signature="e#32392#32393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write-spring/src/main/java/com/xuanyuan/spring/XuanYuanApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/resources/messages_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/Order/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/Order/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/Jdk/Install/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="4" selection-start-line="28" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="111" selection-start-line="18" selection-start-column="111" selection-end-line="18" selection-end-column="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/PayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-test-demo/src/main/java/com/xuanyuan/springboot/test/demo/SpringbootTestDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYuanBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/CommodityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/MoneyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYuanFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE-sources.jar!/org/springframework/beans/factory/FactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYanBeanFactoryPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/SendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/StringToUserConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-test-demo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+          <folding>
+            <element signature="e#3568#3569#0" expanded="true" />
+            <element signature="e#3595#3596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../software/Jdk/Install/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/StringToUserPropertyEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/UserServiceBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="100" column="34" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-test-demo/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-test-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>write-spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework:spring-aop:5.2.4.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
