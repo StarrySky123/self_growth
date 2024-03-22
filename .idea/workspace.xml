@@ -330,7 +330,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -483,7 +483,7 @@
       <workItem from="1710996459815" duration="50000" />
       <workItem from="1710996538924" duration="1202000" />
       <workItem from="1711075631326" duration="85000" />
-      <workItem from="1711077232310" duration="3981000" />
+      <workItem from="1711077232310" duration="4333000" />
     </task>
     <task id="LOCAL-00001" summary="--新建spring测试工程">
       <created>1709711069147</created>
@@ -800,7 +800,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711085431798</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="核心概念解析">
+      <created>1711085502130</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1711085502130</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
