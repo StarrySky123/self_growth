@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca25b5b-93da-4cb1-8a69-903fe49f6779" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/self_growth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/self_growth.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/Test2.java" afterDir="false" />
-    </list>
+    <list default="true" id="eca25b5b-93da-4cb1-8a69-903fe49f6779" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -451,6 +445,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eca25b5b-93da-4cb1-8a69-903fe49f6779" name="Default Changelist" comment="" />
+      <changelist id="" name=".xml" comment="" />
       <created>1709709943008</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -488,7 +483,7 @@
       <workItem from="1710996459815" duration="50000" />
       <workItem from="1710996538924" duration="1202000" />
       <workItem from="1711075631326" duration="85000" />
-      <workItem from="1711077232310" duration="3658000" />
+      <workItem from="1711077232310" duration="3981000" />
     </task>
     <task id="LOCAL-00001" summary="--新建spring测试工程">
       <created>1709711069147</created>
@@ -798,7 +793,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710915947776</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="核心概念解析">
+      <created>1711085431798</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1711085431798</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
