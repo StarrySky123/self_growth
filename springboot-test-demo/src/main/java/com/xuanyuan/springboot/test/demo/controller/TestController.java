@@ -1,6 +1,7 @@
 package com.xuanyuan.springboot.test.demo.controller;
 
-import org.springframework.stereotype.Controller;
+import com.xuanyuan.springboot.test.demo.component.ThirdDependency;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
