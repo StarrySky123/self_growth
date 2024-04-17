@@ -5,14 +5,18 @@ import org.springframework.beans.PropertyValues;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
 import org.springframework.beans.factory.support.MergedBeanDefinitionPostProcessor;
 import org.springframework.beans.factory.support.RootBeanDefinition;
+import org.springframework.stereotype.Component;
 
 import java.lang.reflect.InvocationTargetException;
 
+@Component
 public class XuanYanInstantPostProcessor implements InstantiationAwareBeanPostProcessor, MergedBeanDefinitionPostProcessor {
 
     @Override
     public void postProcessMergedBeanDefinition(RootBeanDefinition beanDefinition, Class<?> beanType, String beanName) {
-        beanDefinition.getPropertyValues().add("moneyService",new MoneyService());
+        if("testService".equals(beanName)){
+            beanDefinition.getPropertyValues().add("moneyService",new MoneyService());
+        }
     }
 
     @Override

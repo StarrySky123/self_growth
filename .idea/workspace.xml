@@ -4,47 +4,34 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca25b5b-93da-4cb1-8a69-903fe49f6779" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYanInstantPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-common-demo/src/main/java/com/xuanyuan/springboot/test/demo/CommonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-common-demo/src/main/java/com/xuanyuan/springboot/test/demo/component/ThirdDependency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="eca25b5b-93da-4cb1-8a69-903fe49f6779" name="Default Changelist" comment="核心概念解析">
+      <change afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/PortCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/PortServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/self_growth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/self_growth.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/AppConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/StringToUserConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/StringToUserPropertyEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/Test5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/Test6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/Test7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/Test8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/aspect/TestAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/CommodityService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/MoneyService$person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/MoneyService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/Order/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/Order/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/PayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/SendService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/UserServiceBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/XuanYanBeanFactoryPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/XuanYuanBeanPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/service/XuanYuanFactoryBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-test-demo/target/classes/com/xuyuan/spring/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-test-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-test-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-test-demo/src/main/java/com/xuanyuan/springboot/test/demo/SpringbootTestDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-test-demo/src/main/java/com/xuanyuan/springboot/test/demo/SpringbootTestDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-test-demo/src/main/java/com/xuanyuan/springboot/test/demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-test-demo/src/main/java/com/xuanyuan/springboot/test/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYanInstantPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/service/XuanYanInstantPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-test-demo/src/main/java/com/xuyuan/spring/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/META-INF/write-spring.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/Autowired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/BeanDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/BeanNameAware.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/BeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/Component.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/ComponentScan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/InitializingBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/PostConstruct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/Scope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/spring/XuanYuanApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/test/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/test/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/test/service/UserInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/test/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/test/service/XuanYuanBeanPostProcessor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/test/service/XuanYuanBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/write-spring/target/classes/com/xuanyuan/test/service/XuanYuanValue.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,7 +371,33 @@
       <recent name="com.xuanyuan.spring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Test1">
+    <configuration name="PortCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuyuan.spring.PortCheck" />
+      <module name="spring-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuyuan.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuyuan.spring.PortServer" />
+      <module name="spring-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuyuan.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuanyuan.test.Test" />
       <module name="write-spring" />
@@ -411,32 +424,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuyuan.Test2" />
-      <module name="spring-test-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuyuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuyuan.Test8" />
-      <module name="spring-test-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuyuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -444,6 +431,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-common-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuanyuan.springboot.test.demo.CommonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -475,13 +469,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootparentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbootparent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuanyuan.SpringbootparentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.PortCheck" />
+        <item itemvalue="Application.PortServer" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.CommonApplication" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test8" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +544,18 @@
       <workItem from="1712236103542" duration="2333000" />
       <workItem from="1712302125860" duration="6096000" />
       <workItem from="1712356119854" duration="63000" />
-      <workItem from="1712450739210" duration="1289000" />
+      <workItem from="1712450739210" duration="1979000" />
+      <workItem from="1712454069660" duration="5428000" />
+      <workItem from="1712712139797" duration="29000" />
+      <workItem from="1712716788918" duration="4712000" />
+      <workItem from="1712729361965" duration="386000" />
+      <workItem from="1712803845405" duration="2426000" />
+      <workItem from="1713080857318" duration="10000" />
+      <workItem from="1713142163323" duration="2741000" />
+      <workItem from="1713228226765" duration="14000" />
+      <workItem from="1713228264958" duration="2647000" />
+      <workItem from="1713314492017" duration="1475000" />
+      <workItem from="1713316393772" duration="931000" />
     </task>
     <task id="LOCAL-00001" summary="--新建spring测试工程">
       <created>1709711069147</created>
@@ -874,7 +886,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711085891774</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="核心概念解析">
+      <created>1712452727950</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1712452727951</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
